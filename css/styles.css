@@ -1,0 +1,64 @@
+body {
+    /* background: url(../assets/images/can.jpeg) no-repeat;
+    background-size: cover; */
+}
+/*This is my first heading*/
+#first-heading {
+    font-family: 'Pixelify Sans', cursive;
+    color: rgb(25, 25, 70);/*This is the text color*/
+    background-color: transparent;/*This is the background*/
+    font-size: 72px;
+    width: 200px;
+    height: 200px;
+}
+
+#second-heading {
+    color: pink;
+    width: 66vw;
+    background-color: transparent;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    /* border-top-style: dotted; */
+    border-right-color: #0f0;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+#third-heading {
+    color: blue;
+    width: 33vw;
+}
+
+.generic-heading {
+    font-size: 42px;
+    font-weight: 600;
+    background-color: orange;
+}
+
+p {
+    font-size: 20px;
+    color: blueviolet;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 8px;
+    padding: 8px;
+    width: 50vw;
+}
+
+#first-heading span {
+    color: blue;
+}
+
+a {
+    font-size: 64px;
+    border-style: solid;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 4px;
+}
+
+a:hover {
+    background-color: beige;
+    text-decoration: underline;
+}
